@@ -1,5 +1,11 @@
 <!doctype html>
-<html class="theme-next   use-motion ">
+
+
+
+
+
+
+<html class="theme-next muse use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -26,71 +32,87 @@
 
 
 
-  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+
 
 
 
 <link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=0.4.5.2" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, Next, michael翔, app, 软件, python, web" />
-
-
-
-
-
-  <link rel="alternate" href="/atom.xml" title="Michael翔的小窝" type="application/atom+xml" />
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.2" />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
 
 
+  <link rel="alternate" href="/atom.xml" title="kura" type="application/atom+xml" />
 
-<meta name="description" content="因上努力，果上随缘。爱折腾app、小众软件，梦想成为技术大牛的小菜鸟-Michael翔">
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Michael翔的小窝">
+<meta property="og:title" content="kura">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Michael翔的小窝">
-<meta property="og:description" content="因上努力，果上随缘。爱折腾app、小众软件，梦想成为技术大牛的小菜鸟-Michael翔">
+<meta property="og:site_name" content="kura">
+<meta property="og:description">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Michael翔的小窝">
-<meta name="twitter:description" content="因上努力，果上随缘。爱折腾app、小众软件，梦想成为技术大牛的小菜鸟-Michael翔">
+<meta name="twitter:title" content="kura">
+<meta name="twitter:description">
 
 
 
 <script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Mist',
-    sidebar: 'post',
-    motion: true
+    scheme: 'Muse',
+    sidebar: {"position":"right","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 13642841,
+      author: '博主'
+    }
   };
 </script>
 
-  <title>
-  Michael翔的小窝 - 因上努力，果上随缘。爱折腾app、小众软件，梦想成为技术大牛的小菜鸟-Michael翔
-</title>
-  <meta name="google-site-verification" content="AGGJrbwmm5TkNOKFbyLbbh3gfkn5Qxa63uoV4kLb92Y" />
-  <meta name="baidu-site-verification" content="y287POKeid" />
+  <title> kura </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
-  <!--[if lte IE 8]>
-  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
-    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
-           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
-           style='margin-left:auto;margin-right:auto;display: block;'/>
-    </a>
-  </div>
-<![endif]-->
 
 
 
@@ -99,7 +121,18 @@
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?cc49c6c5d494529d0f9a5126f7141d48";
+      hm.src = "//hm.baidu.com/hm.js?ccebef85735ebbee018b5fb9d7940ef5";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=55731025";
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();
@@ -108,9 +141,16 @@
 
 
 
-  <div class="container one-column
+
+
+
+
+
+
+
+  <div class="container one-collumn sidebar-position-right
    page-home
-">
+ ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -120,11 +160,11 @@
   <div class="custom-logo-site-title">
     <a href="/"  class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <span class="site-title">Michael翔的小窝</span>
+      <span class="site-title">kura</span>
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle">因上努力，果上随缘。爱折腾app、小众软件，梦想成为技术大牛的小菜鸟</p>
+  <p class="site-subtitle"></p>
 </div>
 
 <div class="site-nav-toggle">
@@ -139,7 +179,7 @@
 
 
 
-    <ul id="menu" class="menu menu-left">
+    <ul id="menu" class="menu">
 
 
         <li class="menu-item menu-item-home">
@@ -152,16 +192,14 @@
         </li>
 
 
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
 
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
+              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
 
-              <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
-
-            分类
+            归档
           </a>
         </li>
-
 
 
         <li class="menu-item menu-item-tags">
@@ -175,51 +213,16 @@
 
 
 
-        <li class="menu-item menu-item-books">
-          <a href="/categories/books" rel="section">
+        <li class="menu-item menu-item-search">
 
-              <i class="menu-item-icon fa fa-book fa-fw"></i> <br />
+            <a href="#" class="st-search-show-outputs">
 
-            书记
+
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+
+            搜索
           </a>
         </li>
-
-
-
-        <li class="menu-item menu-item-tools">
-          <a href="/categories/tools" rel="section">
-
-              <i class="menu-item-icon fa fa-leaf fa-fw"></i> <br />
-
-            工具
-          </a>
-        </li>
-
-
-
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-
-              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
-
-            归档
-          </a>
-        </li>
-
-
-
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-
-              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
-
-            关于
-          </a>
-        </li>
-
-
-
-
 
     </ul>
 
@@ -227,11 +230,9 @@
 
     <div class="site-search">
 
-
   <form class="site-search-form">
-    <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
-  </form>
-
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
 
 <script type="text/javascript">
   (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
@@ -239,7 +240,7 @@
     e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
   })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
 
-  _st('install', 'Q95UETz4JmPWxEN8s8Ys','2.0.0');
+  _st('install', 't6VCHq_KDexM249PpqGp','2.0.0');
 </script>
 
 
@@ -251,9 +252,10 @@
  </div>
     </header>
 
-    <main id="main" class="main" >
+    <main id="main" class="main">
       <div class="main-inner">
-        <div id="content" class="content">
+        <div class="content-wrap">
+          <div id="content" class="content">
 
   <section id="posts" class="posts-expand">
 
@@ -266,12 +268,6 @@
 
 
 
-
-
-
-
-
-
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
 
@@ -284,8 +280,8 @@
 
 
 
-                <a class="post-title-link" href="/2016/02/26/books-list-2016/" itemprop="url">
-                  2016读书-书单整理
+                <a class="post-title-link" href="/2016/04/22/hello-world/" itemprop="url">
+                  Hello World
                 </a>
 
 
@@ -294,39 +290,40 @@
 
         <div class="post-meta">
           <span class="post-time">
-            发表于
-            <time itemprop="dateCreated" datetime="2016-02-26T13:50:14+08:00" content="2016-02-26">
-              2016-02-26
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-04-22T23:14:27+08:00" content="2016-04-22">
+              2016-04-22
             </time>
           </span>
 
-
-            <span class="post-category" >
-              &nbsp; | &nbsp; 分类于
-
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/books/" itemprop="url" rel="index">
-                    <span itemprop="name">books</span>
-                  </a>
-                </span>
-
-
-
-
-
-            </span>
 
 
 
 
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/02/26/books-list-2016/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/02/26/books-list-2016/" itemprop="commentsCount"></span>
+                <a href="/2016/04/22/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/22/hello-world/" itemprop="commentsCount"></span>
                 </a>
               </span>
 
 
+
+
+
+
+
+             <span id="/2016/04/22/hello-world/" class="leancloud_visitors" data-flag-title="Hello World">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
 
 
 
@@ -335,21 +332,29 @@
 
 
 
-    <div class="post-body">
+    <div class="post-body" itemprop="articleBody">
 
 
 
 
 
 
-          <p>书籍是人类进步的阶梯。</p>
-<p>前几天无意看到了一个<a href="http://ocw.nthu.edu.tw/ocw/index.php?page=course&amp;cid=23&amp;">视频</a>，这位老先生说了一个故事，学习读书的时候，不要因为书中有不好的地方，就不去读这本书，因为不可能每本书都完美无暇！我们要先看到这本书里值得学习的、好的地方，然后再去看到它不好的地方！</p>
+          <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2016/02/26/books-list-2016/#more" rel="contents">
+            <a class="btn" href="/2016/04/22/hello-world/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
 
+
+    </div>
+
+    <div>
+
+    </div>
+
+    <div>
 
     </div>
 
@@ -364,984 +369,21 @@
 
     </footer>
   </article>
-
-
-
-
-
-
-
-
-
-
-
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-
-      <header class="post-header">
-
-
-
-          <h1 class="post-title" itemprop="name headline">
-
-
-
-
-                <a class="post-title-link" href="/2015/12/29/python-encoding-error/" itemprop="url">
-                  Python编码问题总结
-                </a>
-
-
-          </h1>
-
-
-        <div class="post-meta">
-          <span class="post-time">
-            发表于
-            <time itemprop="dateCreated" datetime="2015-12-29T12:51:24+08:00" content="2015-12-29">
-              2015-12-29
-            </time>
-          </span>
-
-
-            <span class="post-category" >
-              &nbsp; | &nbsp; 分类于
-
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/python/" itemprop="url" rel="index">
-                    <span itemprop="name">python</span>
-                  </a>
-                </span>
-
-
-
-
-
-            </span>
-
-
-
-
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2015/12/29/python-encoding-error/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/29/python-encoding-error/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-
-
-
-
-
-        </div>
-      </header>
-
-
-
-    <div class="post-body">
-
-
-
-
-
-
-          <p>Python编码问题一直是头疼的东西，这篇文章就用来记录整理Python编码相关的问题以及IDE编码问题的解决办法好了。会不断补充的。</p>
-<h1 id="Pyscripter出现编码错误">Pyscripter出现编码错误</h1><h2 id="Pyscripter错误">Pyscripter错误</h2><p>今天使用Pyscripter编辑python时，出现了这样的错误提示：<br><figure class="highlight vhdl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pyscripter UnicodeEncodeError: <span class="attribute">'ascii</span>' codec can<span class="attribute">'t</span> encode characters <span class="keyword">in</span> position <span class="number">1</span>-<span class="number">2</span>: ordinal <span class="keyword">not</span> <span class="keyword">in</span> <span class="keyword">range</span>(<span class="number">128</span>)</span><br></pre></td></tr></table></figure></p>
-<p><img src="http://ww4.sinaimg.cn/large/6d9475f6jw1ezgfl7tihsj20lk0fkq7o.jpg" alt="error"><br>为了解决这个错误，百度了好半天，各种说法，最后总算给我找到了一个靠谱的解决方案：<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/12/29/python-encoding-error/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-
-
-    </div>
-
-    <footer class="post-footer">
-
-
-
-
-
-
-        <div class="post-eof"></div>
-
-    </footer>
-  </article>
-
-
-
-
-
-
-
-
-
-
-
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-
-      <header class="post-header">
-
-
-
-          <h1 class="post-title" itemprop="name headline">
-
-
-
-
-                <a class="post-title-link" href="/2015/12/28/tools-sougoupinyin/" itemprop="url">
-                  搜狗输入法使用技巧整理
-                </a>
-
-
-          </h1>
-
-
-        <div class="post-meta">
-          <span class="post-time">
-            发表于
-            <time itemprop="dateCreated" datetime="2015-12-28T11:03:25+08:00" content="2015-12-28">
-              2015-12-28
-            </time>
-          </span>
-
-
-            <span class="post-category" >
-              &nbsp; | &nbsp; 分类于
-
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/tools/" itemprop="url" rel="index">
-                    <span itemprop="name">tools</span>
-                  </a>
-                </span>
-
-
-
-
-
-            </span>
-
-
-
-
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2015/12/28/tools-sougoupinyin/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/28/tools-sougoupinyin/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-
-
-
-
-
-        </div>
-      </header>
-
-
-
-    <div class="post-body">
-
-
-
-
-
-
-          <p>现在的输入法有很多，但是，哪个最好呢？不必纠结，自己用着顺手的才是最好！</p>
-<p>自己选择搜狗输入法的原因很简单，因为，它支持的平台多，同时，各个平台更新也很积极。从兼容性的角度考虑，还是最后选择了搜狗。至于搜狗启动的广告之类，其实不怕麻烦，是可以在设置里选择不弹出的。</p>
-<p>作为每天使用最多的输入法，我觉得，花点时间了解它一下还是值得的，你说呢？毕竟是与我们共同作战的小伙伴啊！</p>
-<h1 id="输入罗马数字+计算器">输入罗马数字+计算器</h1><p><img src="http://ww1.sinaimg.cn/large/6d9475f6jw1ezf7djgz9zj20j10ekwhl.jpg" alt=""><br>属性设置-&gt;高级</p>
-<ul>
-<li>需要输入罗马数字时，采用：v+”数字”，然后可以看见候选数字中有罗马数字了。</li>
-<li>v+计算式子 就能直接获得结果</li>
-</ul>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/12/28/tools-sougoupinyin/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-
-
-    </div>
-
-    <footer class="post-footer">
-
-
-
-
-
-
-        <div class="post-eof"></div>
-
-    </footer>
-  </article>
-
-
-
-
-
-
-
-
-
-
-
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-
-      <header class="post-header">
-
-
-
-          <h1 class="post-title" itemprop="name headline">
-
-
-
-
-                <a class="post-title-link" href="/2015/12/24/algorithm-GA-basic/" itemprop="url">
-                  遗传算法GA(Genetic Algorithm)入门知识梳理
-                </a>
-
-
-          </h1>
-
-
-        <div class="post-meta">
-          <span class="post-time">
-            发表于
-            <time itemprop="dateCreated" datetime="2015-12-24T21:11:03+08:00" content="2015-12-24">
-              2015-12-24
-            </time>
-          </span>
-
-
-            <span class="post-category" >
-              &nbsp; | &nbsp; 分类于
-
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/算法/" itemprop="url" rel="index">
-                    <span itemprop="name">算法</span>
-                  </a>
-                </span>
-
-
-
-
-
-            </span>
-
-
-
-
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2015/12/24/algorithm-GA-basic/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/24/algorithm-GA-basic/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-
-
-
-
-
-        </div>
-      </header>
-
-
-
-    <div class="post-body">
-
-
-
-
-
-
-          <h1 id="一、遗传算法进化论背景知识">一、遗传算法进化论背景知识</h1><p>作为遗传算法生物背景的介绍，下面内容了解即可：</p>
-<ul>
-<li><p>种群(Population)：生物的进化以群体的形式进行，这样的一个群体称为种群。</p>
-</li>
-<li><p>个体：组成种群的单个生物。</p>
-</li>
-<li><p>基因 ( Gene ) ：一个遗传因子。 </p>
-</li>
-<li><p>染色体 ( Chromosome ) ：包含一组的基因。</p>
-</li>
-<li><p>生存竞争，适者生存：对环境适应度高的、牛B的个体参与繁殖的机会比较多，后代就会越来越多。适应度低的个体参与繁殖的机会比较少，后代就会越来越少。</p>
-</li>
-<li><p>遗传与变异：新个体会遗传父母双方各一部分的基因，同时有一定的概率发生基因变异。</p>
-</li>
-</ul>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/12/24/algorithm-GA-basic/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-
-
-    </div>
-
-    <footer class="post-footer">
-
-
-
-
-
-
-        <div class="post-eof"></div>
-
-    </footer>
-  </article>
-
-
-
-
-
-
-
-
-
-
-
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-
-      <header class="post-header">
-
-
-
-          <h1 class="post-title" itemprop="name headline">
-
-
-
-
-                <a class="post-title-link" href="/2015/12/23/python-pandas-basic/" itemprop="url">
-                  Python数据分析入门之pandas总结基础
-                </a>
-
-
-          </h1>
-
-
-        <div class="post-meta">
-          <span class="post-time">
-            发表于
-            <time itemprop="dateCreated" datetime="2015-12-23T18:44:29+08:00" content="2015-12-23">
-              2015-12-23
-            </time>
-          </span>
-
-
-            <span class="post-category" >
-              &nbsp; | &nbsp; 分类于
-
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/python/" itemprop="url" rel="index">
-                    <span itemprop="name">python</span>
-                  </a>
-                </span>
-
-
-
-
-
-            </span>
-
-
-
-
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2015/12/23/python-pandas-basic/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/23/python-pandas-basic/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-
-
-
-
-
-        </div>
-      </header>
-
-
-
-    <div class="post-body">
-
-
-
-
-
-
-          <h1 id="Pandas–“大熊猫”基础">Pandas–“大熊猫”基础</h1><h2 id="Series">Series</h2><p>Series: pandas的长枪(数据表中的一列或一行,观测向量,一维数组…)</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">Series1 = pd.<span class="function"><span class="title">Series</span><span class="params">(np.random.randn(<span class="number">4</span>)</span></span>)</span><br><span class="line"></span><br><span class="line">print Series1,<span class="function"><span class="title">type</span><span class="params">(Series1)</span></span> </span><br><span class="line"></span><br><span class="line">print Series1<span class="class">.index</span></span><br><span class="line"></span><br><span class="line">print Series1.values</span><br></pre></td></tr></table></figure>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/12/23/python-pandas-basic/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-
-
-    </div>
-
-    <footer class="post-footer">
-
-
-
-
-
-
-        <div class="post-eof"></div>
-
-    </footer>
-  </article>
-
-
-
-
-
-
-
-
-
-
-
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-
-      <header class="post-header">
-
-
-
-          <h1 class="post-title" itemprop="name headline">
-
-
-
-
-                <a class="post-title-link" href="/2015/12/20/mood-20151220/" itemprop="url">
-                  杂文-2015/12/20
-                </a>
-
-
-          </h1>
-
-
-        <div class="post-meta">
-          <span class="post-time">
-            发表于
-            <time itemprop="dateCreated" datetime="2015-12-20T23:16:43+08:00" content="2015-12-20">
-              2015-12-20
-            </time>
-          </span>
-
-
-            <span class="post-category" >
-              &nbsp; | &nbsp; 分类于
-
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/心情/" itemprop="url" rel="index">
-                    <span itemprop="name">心情</span>
-                  </a>
-                </span>
-
-
-
-
-
-            </span>
-
-
-
-
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2015/12/20/mood-20151220/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/20/mood-20151220/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-
-
-
-
-
-        </div>
-      </header>
-
-
-
-    <div class="post-body">
-
-
-
-
-
-
-          <p>今天在朋友圈，发现高中同桌q诚当上爸爸了，恭喜。虽然许久都未曾联系，但是还是由衷的内心给予祝福……回想起高中那段时光，真是记忆犹新。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/12/20/mood-20151220/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-
-
-    </div>
-
-    <footer class="post-footer">
-
-
-
-
-
-
-        <div class="post-eof"></div>
-
-    </footer>
-  </article>
-
-
-
-
-
-
-
-
-
-
-
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-
-      <header class="post-header">
-
-
-
-          <h1 class="post-title" itemprop="name headline">
-
-
-
-
-                <a class="post-title-link" href="/2015/12/16/python-machine-learning-list/" itemprop="url">
-                  python机器学习入门资料梳理
-                </a>
-
-
-          </h1>
-
-
-        <div class="post-meta">
-          <span class="post-time">
-            发表于
-            <time itemprop="dateCreated" datetime="2015-12-16T21:45:29+08:00" content="2015-12-16">
-              2015-12-16
-            </time>
-          </span>
-
-
-            <span class="post-category" >
-              &nbsp; | &nbsp; 分类于
-
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/python/" itemprop="url" rel="index">
-                    <span itemprop="name">python</span>
-                  </a>
-                </span>
-
-
-
-
-
-            </span>
-
-
-
-
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2015/12/16/python-machine-learning-list/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/16/python-machine-learning-list/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-
-
-
-
-
-        </div>
-      </header>
-
-
-
-    <div class="post-body">
-
-
-
-
-
-
-          <p>在python基本语法入门之后，就要准备选一个研究方向了。Web是自己比较感兴趣的方向，可是，导师这边的数<br>据处理肯定不能由我做主了。paper、peper、paper……真的挺愁人的</p>
-<p>还有几个月就要进行春季实习招聘了，加油！总结一下python机器学习方面的资料吧。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/12/16/python-machine-learning-list/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-
-
-    </div>
-
-    <footer class="post-footer">
-
-
-
-
-
-
-        <div class="post-eof"></div>
-
-    </footer>
-  </article>
-
-
-
-
-
-
-
-
-
-
-
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-
-      <header class="post-header">
-
-
-
-          <h1 class="post-title" itemprop="name headline">
-
-
-
-
-                <a class="post-title-link" href="/2015/12/09/videos-辩护人/" itemprop="url">
-                  videos-辩护人
-                </a>
-
-
-          </h1>
-
-
-        <div class="post-meta">
-          <span class="post-time">
-            发表于
-            <time itemprop="dateCreated" datetime="2015-12-09T16:03:35+08:00" content="2015-12-09">
-              2015-12-09
-            </time>
-          </span>
-
-
-            <span class="post-category" >
-              &nbsp; | &nbsp; 分类于
-
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/video/" itemprop="url" rel="index">
-                    <span itemprop="name">video</span>
-                  </a>
-                </span>
-
-
-
-
-
-            </span>
-
-
-
-
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2015/12/09/videos-辩护人/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/09/videos-辩护人/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-
-
-
-
-
-        </div>
-      </header>
-
-
-
-    <div class="post-body">
-
-
-
-
-
-
-          <p>测试<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/12/09/videos-辩护人/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-
-
-    </div>
-
-    <footer class="post-footer">
-
-
-
-
-
-
-        <div class="post-eof"></div>
-
-    </footer>
-  </article>
-
-
-
-
-
-
-
-
-
-
-
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-
-      <header class="post-header">
-
-
-
-          <h1 class="post-title" itemprop="name headline">
-
-
-
-
-                <a class="post-title-link" href="/2015/12/09/methods-del-U/" itemprop="url">
-                  无法删除文件或者重命名，无法弹出U盘--解决办法
-                </a>
-
-
-          </h1>
-
-
-        <div class="post-meta">
-          <span class="post-time">
-            发表于
-            <time itemprop="dateCreated" datetime="2015-12-09T14:04:47+08:00" content="2015-12-09">
-              2015-12-09
-            </time>
-          </span>
-
-
-            <span class="post-category" >
-              &nbsp; | &nbsp; 分类于
-
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/tools/" itemprop="url" rel="index">
-                    <span itemprop="name">tools</span>
-                  </a>
-                </span>
-
-
-
-
-
-            </span>
-
-
-
-
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2015/12/09/methods-del-U/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/09/methods-del-U/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-
-
-
-
-
-        </div>
-      </header>
-
-
-
-    <div class="post-body">
-
-
-
-
-
-
-          <p>当你重命名或删除一个文件/文件夹时,Windows 弹出对话框提示你“无法删除 xxx:它正在被其它用户/程序使用!”,怎么办?<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/12/09/methods-del-U/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-
-
-    </div>
-
-    <footer class="post-footer">
-
-
-
-
-
-
-        <div class="post-eof"></div>
-
-    </footer>
-  </article>
-
-
-
-
-
-
-
-
-
-
-
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-
-      <header class="post-header">
-
-
-
-          <h1 class="post-title" itemprop="name headline">
-
-
-
-
-                <a class="post-title-link" href="/2015/12/09/methods-del-error/" itemprop="url">
-                  无法删除文件，“文件或目录损坏且无法读取”问题的解决办法
-                </a>
-
-
-          </h1>
-
-
-        <div class="post-meta">
-          <span class="post-time">
-            发表于
-            <time itemprop="dateCreated" datetime="2015-12-09T13:30:03+08:00" content="2015-12-09">
-              2015-12-09
-            </time>
-          </span>
-
-
-            <span class="post-category" >
-              &nbsp; | &nbsp; 分类于
-
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/tools/" itemprop="url" rel="index">
-                    <span itemprop="name">tools</span>
-                  </a>
-                </span>
-
-
-
-
-
-            </span>
-
-
-
-
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2015/12/09/methods-del-error/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/09/methods-del-error/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-
-
-
-
-
-        </div>
-      </header>
-
-
-
-    <div class="post-body">
-
-
-
-
-
-
-          <p>今天下午整理我的移动硬盘上的资料，结果，删除某个文件夹出现了这样的错误：</p>
-<blockquote>
-<p>移动硬盘出现“文件或目录损坏且无法读取”的简单修复</p>
-</blockquote>
-<p>作为处女座的我当然不能熟视无睹！必须歼灭它~通过查资料，找到了一下解决办法。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/12/09/methods-del-error/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-
-
-    </div>
-
-    <footer class="post-footer">
-
-
-
-
-
-
-        <div class="post-eof"></div>
-
-    </footer>
-  </article>
-
 
 
 
   </section>
 
 
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
-  </nav>
+
+
+          </div>
+
+
 
 
 
         </div>
-
-
-
-
-
-
-      </div>
-
 
 
 
@@ -1362,31 +404,23 @@
 
       <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" src="http://i5.tietuku.com/0d972d2b106fc7ea.jpg" alt="Michael_翔" itemprop="image"/>
-          <p class="site-author-name" itemprop="name">Michael_翔</p>
+          <img class="site-author-image" itemprop="image"
+               src="/images/naruto.png"
+               alt="xiaosong" />
+          <p class="site-author-name" itemprop="name">xiaosong</p>
+          <p class="site-description motion-element" itemprop="description"></p>
         </div>
-        <p class="site-description motion-element" itemprop="description">因上努力，果上随缘。爱折腾app、小众软件，梦想成为技术大牛的小菜鸟-Michael翔</p>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">22</span>
+              <span class="site-state-item-count">1</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
-          <div class="site-state-item site-state-categories">
-            <a href="/categories">
-              <span class="site-state-item-count">8</span>
-              <span class="site-state-item-name">分类</span>
-              </a>
-          </div>
 
-          <div class="site-state-item site-state-tags">
-            <a href="/tags">
-              <span class="site-state-item-count">25</span>
-              <span class="site-state-item-name">标签</span>
-              </a>
-          </div>
+
+
 
         </nav>
 
@@ -1403,42 +437,20 @@
 
 
               <span class="links-of-author-item">
-                <a href="https://github.com/Michael728" target="_blank">
+                <a href="https://github.com/heyxiaosong" target="_blank" title="GitHub">
 
-                    <i class="fa fa-github"></i> GitHub
+                    <i class="fa fa-github"></i>
 
+                  GitHub
                 </a>
               </span>
 
               <span class="links-of-author-item">
-                <a href="https://twitter.com/728_michael" target="_blank">
+                <a href="http://weibo.com/3919320723/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" target="_blank" title="Weibo">
 
-                    <i class="fa fa-twitter"></i> Twitter
+                    <i class="fa fa-weibo"></i>
 
-                </a>
-              </span>
-
-              <span class="links-of-author-item">
-                <a href="http://weibo.com" target="_blank">
-
-                    <i class="fa fa-weibo"></i> Weibo
-
-                </a>
-              </span>
-
-              <span class="links-of-author-item">
-                <a href="http://www.douban.com/people/51517255/" target="_blank">
-
-                    <i class="fa fa-globe"></i> DouBan
-
-                </a>
-              </span>
-
-              <span class="links-of-author-item">
-                <a href="http://www.zhihu.com/people/zhang-xiang-85" target="_blank">
-
-                    <i class="fa fa-globe"></i> ZhiHu
-
+                  Weibo
                 </a>
               </span>
 
@@ -1448,9 +460,8 @@
 
 
 
-        <div class="links-of-author motion-element">
 
-        </div>
+
 
       </section>
 
@@ -1461,19 +472,19 @@
 
 
 
+      </div>
     </main>
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<div class="copyright" style="position: center" >
+        <div class="copyright" >
 
-  &copy;
+  &copy;  2015 -
   <span itemprop="copyrightYear">2016</span>
   <span class="with-love">
-    <i class="icon-next-heart fa fa-heart"></i>
+    <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Michael_翔</span>
+  <span class="author" itemprop="copyrightHolder">xiaosong</span>
 </div>
 
 <div class="powered-by">
@@ -1483,30 +494,94 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
+    NexT.Muse
   </a>
 </div>
 
 
 
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
+<div class="busuanzi-count">
 
-<span id="busuanzi_container_site_pv">
-本站总访问量<span id="busuanzi_value_site_pv"></span>次
-</span>
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+    <span class="site-uv"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
+
+
+
+    <span class="site-pv"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
+
+
+</div>
+
 
 
 
       </div>
     </footer>
 
-    <div class="back-to-top"></div>
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
   </div>
+
+
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
 
 
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
 
 
 
@@ -1517,7 +592,7 @@
 
 
   <script type="text/javascript">
-    var duoshuoQuery = {short_name:"michael-xox"};
+    var duoshuoQuery = {short_name:"kuraxiaosong"};
     (function() {
       var ds = document.createElement('script');
       ds.type = 'text/javascript';ds.async = true;
@@ -1536,25 +611,123 @@
 
 
 
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.5.2"></script>
-
-
-  <script type="text/javascript" src="/js/helpers.js?v=0.4.5.2"></script>
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
-<script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
-
-<script type="text/javascript" src="/js/motion.js?v=0.4.5.2" id="motion.global"></script>
-
-
-  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
 
 
 
-  <script type="text/javascript" src="/js/bootstrap.js"></script>
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+  </script>
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for (i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+    });
+  </script>
+  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 
+
+
+
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("xhshzOEYYYnflvDEOEXkat6O-gzGzoHsz", "foUpMedGVwQLTwppmWJee2Cn");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
 
 
 
